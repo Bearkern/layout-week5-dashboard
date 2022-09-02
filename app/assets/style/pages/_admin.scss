@@ -1,0 +1,32 @@
+.page-link {
+  &:focus {
+    .arrow {
+      color: $white !important;
+    }
+  }
+}
+
+.form-select.form-select-lg {
+  background: url(../images/expand-more.svg) no-repeat 95% center / 24px 24px;
+}
+
+.btn-outline-success:disabled,
+.btn-outline-success.disabled {
+  color: $gray-400;
+}
+
+.expand-more {
+  display: none;
+}
+
+.expand-less {
+  display: inline-block;
+}
+
+.collapsed .expand-more {
+  display: inline-block;
+}
+
+.collapsed .expand-less {
+  display: none;
+}

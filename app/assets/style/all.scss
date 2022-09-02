@@ -1,9 +1,9 @@
 @import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/base";
 @import "./helpers/variables";
 @import "./helpers/mixins";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import "./helpers/base";
 @import './module/table';
 
 @import './layout/header';

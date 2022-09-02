@@ -7,3 +7,13 @@
 .lh-33 {
   line-height: 33px;
 }
+.btn {
+  &.dropdown-toggle,
+  &.modal-toggle,
+  .material-icons,
+  .material-icons-outlined {
+    &:hover {
+      color: $green;
+    }
+  }
+}
