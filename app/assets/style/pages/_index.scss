@@ -1,0 +1,36 @@
+.dropdown-toggle.toggle-expand-more::after {
+  mask-image: url(../images/expand-more.svg);
+  background-color: $green;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 0.5625em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+.dropdown-toggle.toggle-drop-down::after {
+  background-image: url(../images/arrow-drop-down.svg);
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 0.5em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.list-group {
+  width: 320px;
+}
+
+.list-content {
+  width: 190px;
+  @include text-ellipsis;
+}
+
+.editor {
+  .reply-area {
+    resize: none;
+  }
+}

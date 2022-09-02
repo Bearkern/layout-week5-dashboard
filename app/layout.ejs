@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body class="d-flex min-vh-100">
+    <header class="d-flex flex-column bg-light py-8">
+      <h1 class="ps-8 mb-8">
+        <a href="./index.html" class="d-block">Answer</a>
+      </h1>
+      <nav>
+        <ul class="navbar-nav w-100">
+          <li class="py-2">
+            <a href="#" class="nav-link py-1 ps-7 fw-bold disabled"
+              ><span class="material-icons align-middle pe-4"> assessment </span>Dashboard</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#" class="nav-link py-1 ps-7 fw-bold disabled"
+              ><span class="material-icons align-middle pe-4"> question_answer </span>Question</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="index.html" class="nav-link py-1 ps-7 fw-bold"
+              ><span class="material-icons align-middle pe-4"> assignment </span>Assignment</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#" class="nav-link py-1 ps-7 fw-bold disabled"
+              ><span class="material-icons align-middle pe-4"> video_library </span>Course</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="admin.html" class="nav-link py-1 ps-7 fw-bold"
+              ><span class="material-icons align-middle pe-4"> supervisor_account </span>Admin</a
+            >
+          </li>
+          <li class="py-2">
+            <a href="#" class="nav-link py-1 ps-7 fw-bold disabled"
+              ><span class="material-icons align-middle pe-4"> settings </span>Settings</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="d-flex align-items-center mt-auto ps-8">
+        <img
+          src="./assets/images/andychen.jpeg"
+          alt="Andy Chen"
+          height="40"
+          width="40"
+          class="rounded-circle img-cover"
+        />
+        <div class="ms-4">
+          <h4 class="lh-base">Andy Chen</h4>
+          <p class="fs-6 text-muted">andy0401@mail.com</p>
+        </div>
+      </div>
+    </header>
+    <main class="px-8 w-100">
+      <%- contents %>
+    </main>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>

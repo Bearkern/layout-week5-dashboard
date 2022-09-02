@@ -1,0 +1,19 @@
+header {
+  min-width: 296px;
+}
+h1 a {
+  background: url(../images/logo-ANSWER.svg) no-repeat center / contain;
+  width: 151px;
+  height: 40px;
+  @include hide-text;
+}
+.nav-link {
+  border-left: 4px solid transparent;
+  &.active {
+    color: $green;
+    border-left: 4px solid $green;
+  }
+  &:hover {
+    background-color: $gray-400;
+  }
+}
