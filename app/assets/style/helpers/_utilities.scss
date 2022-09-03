@@ -1,0 +1,62 @@
+.img-cover {
+  object-fit: cover;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-33 {
+  line-height: 33px;
+}
+
+.btn {
+  &.dropdown-toggle,
+  &.modal-toggle,
+  .material-icons,
+  .material-icons-outlined {
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.dropdown-toggle.toggle-expand-more::after {
+  mask-image: url(../images/expand-more.svg);
+  background-color: $green;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 0.5625em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.dropdown-toggle.toggle-drop-down::after {
+  background-image: url(../images/arrow-drop-down.svg);
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 0.5em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.page-link {
+  &:focus {
+    .arrow {
+      color: $white !important;
+    }
+  }
+}
+
+.form-select.form-select-lg {
+  background: url(../images/expand-more.svg) no-repeat 95% center / 24px 24px;
+}
+
+.btn-outline-success:disabled,
+.btn-outline-success.disabled {
+  color: $gray-400;
+}
